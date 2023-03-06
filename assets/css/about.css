@@ -30,7 +30,7 @@
     background-color: var(--purple);
     border-radius: 50px;
     color: var(--white);
-    font-size: 1.2em;
+    font-size: 1rem;
     font-weight: var(--thin);
-    width: 150px;
+    width: 120px;
 }

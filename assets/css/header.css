@@ -23,7 +23,7 @@ nav a.nav-button{
     justify-content: center;
     align-items: center;
     font-weight: var(--black);
-    font-size: 1.3em;
+    font-size: 1rem;
     font-family: var(--font);
     color: var(--dark-purple);
 }
