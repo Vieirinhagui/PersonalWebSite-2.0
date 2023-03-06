@@ -31,6 +31,7 @@ main{
     font-weight: var(--light);
     font-size: 3rem;
     margin-bottom: 2rem;
+    
 }
 .subtitle{
     font-weight: var(--black);
