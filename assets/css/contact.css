@@ -28,7 +28,7 @@
   font-size: 2rem;
   font-weight: var(--black);
 }
-.contact-contact img:first-child {
+.contact-contact .linkedin:first-child {
   border-radius: 50%;
 }
 .contact-form h2 {
