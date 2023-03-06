@@ -1,0 +1,36 @@
+#about{
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font);
+
+}
+#about h1.about-title{
+    color: var(--dark-purple);
+}
+#about img.about-img{
+    background-color: blueviolet;
+    width: 90%;
+    height: 100%;
+    margin: 2rem 0;
+    align-self: center;
+}
+
+.curriculum p.curriculum-text{
+    color: var(--purple);
+}
+.curriculum-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem 0 0 0;
+}
+.curriculum button{
+    padding: .5rem 1rem;
+    background-color: var(--purple);
+    border-radius: 50px;
+    color: var(--white);
+    font-size: 1.2em;
+    font-weight: var(--thin);
+    width: 150px;
+}

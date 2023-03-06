@@ -1,0 +1,18 @@
+#skills{
+    background-color: var(--dark-purple);
+    color: var(--white);
+    padding: 2rem;
+    font-family: var(--font);
+    
+}
+#skills div{
+    font-size: 1.2em;
+    margin-left: 2rem;
+}
+#skills ul{
+    list-style: none;
+    margin: 1rem;
+    font-weight: var(--light);
+}
+
+

@@ -1,0 +1,35 @@
+#projects .swiper-slide img {
+  width: 80%;
+  height: auto;
+}
+
+#projects .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--dark-purple);
+}
+
+#projects .swiper-slide p {
+  padding-top: 0;
+  margin-top: 1rem;
+}
+.swiper {
+  padding: 2rem 0;
+}
+#projects .projects-button-more {
+  background-color: var(--purple);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  margin: 0 auto;
+  font-weight: var(--black);
+}
