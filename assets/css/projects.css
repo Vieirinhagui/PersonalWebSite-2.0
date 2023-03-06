@@ -24,6 +24,7 @@
   margin-right: 2rem;
 }
 #projects .swiper-slide p {
+  padding-top: 1rem;
   padding-bottom:1rem;
   width: 80%;
 }
