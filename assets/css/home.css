@@ -15,7 +15,7 @@
 #home h3{
     color: var(--light-purple);
     text-align: center;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #home img.avatar{
