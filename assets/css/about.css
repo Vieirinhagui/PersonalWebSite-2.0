@@ -34,3 +34,28 @@
     font-weight: var(--thin);
     width: 120px;
 }
+
+@media screen and (min-width:1024px) {
+    #about{
+        padding: 5rem;
+    }
+    #about h1.about-title{
+        font-size: 4rem;
+    }
+    #about .about-text{
+        font-size: 1.2em;
+    }
+    #about img.about-img{
+        width: 30%;
+    }
+    .about-about{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15vw;
+    }
+    .curriculum-buttons{
+        justify-content: start;
+        gap: 5vw;
+    }
+}

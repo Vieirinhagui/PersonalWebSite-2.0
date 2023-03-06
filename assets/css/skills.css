@@ -15,4 +15,17 @@
     font-weight: var(--light);
 }
 
-
+@media screen and (min-width:1024px) {
+    #skills .skills-title{
+        font-size: 4rem;
+    }
+    #skills .skills{
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        margin: 0;
+    }
+    #skills .skills .frontend{
+        margin: 0;
+    }
+}

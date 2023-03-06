@@ -2,6 +2,8 @@
   background-color: var(--dark-purple);
   font-family: var(--font);
   width: 100vw;
+  display: flex;
+  flex-direction: column;
 }
 .contact {
   background-color: var(--white);
@@ -22,9 +24,9 @@
   gap: 1rem;
   margin: 0 0 2rem 0;
 }
-#contact h1.contact-title{
+#contact h1.contact-title {
   font-size: 2rem;
-  font-weight: var(--blackz);
+  font-weight: var(--black);
 }
 .contact-contact img:first-child {
   border-radius: 50%;
@@ -70,7 +72,47 @@
   margin: 0.5rem auto;
 }
 
-#contact .contact-contact img{
+#contact .contact-contact img {
   width: 40px;
   height: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  #contact {
+    justify-content: center;
+  }
+  .contact {
+    width: auto;
+    margin: 0 auto;
+  }
+  #contact h1.contact-title {
+    font-size: 3rem;
+    font-weight: var(--black);
+  }
+  #contact .contact-contact {
+    gap: 7vw;
+  }
+  #contact .contact-contact img {
+    width: 60px;
+    height: 60px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-form h2 {
+    font-size: 1.7rem;
+  }
+  .contact-form form input {
+    justify-self: center;
+    width:50%;
+    margin: 0.5rem 25%;
+    height: 50px;
+  }
+  .contact-form form textarea {
+    width: 50%;
+    margin: 0.5rem 25%;
+  }
 }

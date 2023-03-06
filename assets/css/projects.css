@@ -1,6 +1,6 @@
 
 #projects{
-  padding: 0;
+  padding: 0rem;
   padding-bottom: 2rem;
 }
 #projects .projects-title{
@@ -43,4 +43,22 @@
   height: 50px;
   margin: 0 auto;
   font-weight: var(--black);
+}
+
+@media screen and (min-width:1024px) {
+
+  #projects{
+    padding: 5rem;
+    padding-bottom: 2rem;
+  }
+  #projects .projects-title{
+    font-size: 4rem;
+  }
+  #projects .swiper-slide img {
+    width: 60%;
+    height: auto;
+  }
+  #projects .swiper-slide p {
+    font-size: 1.3em;
+  }
 }
